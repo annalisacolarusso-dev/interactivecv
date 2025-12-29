@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anna Colarusso — Interactive CV</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main id="bento">
+
+    <header class="signature" aria-label="Site header">
+      <h1>Anna Colarusso</h1>
+      <p>Designer · Creative Technologist</p>
+    </header>
+
+    <button class="tile tile-about pink" data-section="about">ABOUT</button>
+    <button class="tile tile-work blue" data-section="work">WORK</button>
+    <button class="tile tile-projects green" data-section="projects">PROJECTS</button>
+    <button class="tile tile-skills coral" data-section="skills">SKILLS</button>
+    <button class="tile tile-teaching yellow" data-section="teaching">TEACHING</button>
+    <button class="tile tile-contact white" data-section="contact">CONTACT</button>
+
+  </main>
+
+  <!-- MODAL -->
+  <div id="modal" class="hidden" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button id="close" aria-label="Close">×</button>
+      <small id="modal-kicker"></small>
+      <h2 id="modal-title"></h2>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
