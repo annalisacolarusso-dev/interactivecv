@@ -3,39 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Anna Colarusso — Interactive CV</title>
+  <meta
+    name="description"
+    content="Anna Colarusso — designer and creative technologist building digital experiences across culture, education, and interactive systems."
+  />
+  <meta name="theme-color" content="#0b0b0e" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <main id="bento">
-
+  <main id="bento" aria-label="Interactive CV grid">
     <header class="signature" aria-label="Site header">
+      <p class="kicker">Designer · Creative Technologist · Edinburgh</p>
       <h1>Anna Colarusso</h1>
-      <p>Designer · Creative Technologist</p>
+      <p class="subtitle">
+        Building clear, thoughtful digital experiences across culture, education, and independent practice.
+      </p>
+
+      <div class="header-cta">
+        <button class="btn btn-primary" data-section="projects" type="button">Selected work</button>
+        <button class="btn btn-secondary" data-section="contact" type="button">Get in touch</button>
+      </div>
     </header>
 
-    <button class="tile tile-about pink" data-section="about">ABOUT</button>
-    <button class="tile tile-work blue" data-section="work">WORK</button>
-    <button class="tile tile-projects green" data-section="projects">PROJECTS</button>
-    <button class="tile tile-skills coral" data-section="skills">SKILLS</button>
-    <button class="tile tile-teaching yellow" data-section="teaching">TEACHING</button>
-    <button class="tile tile-contact white" data-section="contact">CONTACT</button>
+    <button class="tile tile-about pink reveal" data-section="about" aria-label="Open About" type="button">
+      <span class="tile-meta">Profile · values · focus</span>
+      <span class="tile-label">ABOUT</span>
+      <svg class="piping" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+        <rect x="6" y="6" width="88" height="88" rx="16" ry="16"></rect>
+      </svg>
+      <span class="tile-stamp" aria-hidden="true" data-stamp="star"></span>
+    </button>
 
+    <button class="tile tile-work blue reveal" data-section="work" aria-label="Open Work" type="button">
+      <span class="tile-meta">Experience · roles · context</span>
+      <span class="tile-label">WORK</span>
+      <svg class="piping" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+        <rect x="6" y="6" width="88" height="88" rx="16" ry="16"></rect>
+      </svg>
+      <span class="tile-stamp" aria-hidden="true" data-stamp="briefcase"></span>
+    </button>
+
+    <button class="tile tile-projects green reveal" data-section="projects" aria-label="Open Projects" type="button">
+      <span class="tile-meta">Selected work · outcomes</span>
+      <span class="tile-label">PROJECTS</span>
+      <svg class="piping" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+        <rect x="6" y="6" width="88" height="88" rx="16" ry="16"></rect>
+      </svg>
+      <span class="tile-stamp" aria-hidden="true" data-stamp="spark"></span>
+    </button>
+
+    <button class="tile tile-skills coral reveal" data-section="skills" aria-label="Open Skills" type="button">
+      <span class="tile-meta">Design · build · systems</span>
+      <span class="tile-label">SKILLS</span>
+      <svg class="piping" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+        <rect x="6" y="6" width="88" height="88" rx="16" ry="16"></rect>
+      </svg>
+      <span class="tile-stamp" aria-hidden="true" data-stamp="grid"></span>
+    </button>
+
+    <button class="tile tile-teaching yellow reveal" data-section="teaching" aria-label="Open Teaching" type="button">
+      <span class="tile-meta">Education · mentoring · critique</span>
+      <span class="tile-label">TEACHING</span>
+      <svg class="piping" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+        <rect x="6" y="6" width="88" height="88" rx="16" ry="16"></rect>
+      </svg>
+      <span class="tile-stamp" aria-hidden="true" data-stamp="book"></span>
+    </button>
+
+    <button class="tile tile-contact white reveal" data-section="contact" aria-label="Open Contact" type="button">
+      <span class="tile-meta">Email · links · next steps</span>
+      <span class="tile-label">CONTACT</span>
+      <svg class="piping" viewBox="0 0 100 100" aria-hidden="true" preserveAspectRatio="none">
+        <rect x="6" y="6" width="88" height="88" rx="16" ry="16"></rect>
+      </svg>
+      <span class="tile-stamp" aria-hidden="true" data-stamp="arrow"></span>
+    </button>
   </main>
 
-  <!-- MODAL -->
   <div id="modal" class="hidden" aria-hidden="true">
-    <div class="modal-box" role="dialog" aria-modal="true">
-      <button id="close" aria-label="Close">×</button>
+    <div
+      class="modal-box"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      aria-describedby="modal-content"
+    >
+      <button id="close" aria-label="Close dialog" type="button">×</button>
+
       <small id="modal-kicker"></small>
       <h2 id="modal-title"></h2>
-      <div id="modal-content"></div>
+
+      <div class="modal-frame">
+        <div id="modal-content"></div>
+      </div>
+
+      <div class="modal-footer">
+        <span class="stamp">Built with passion, patience, and intention.</span>
+      </div>
     </div>
   </div>
 
