@@ -183,15 +183,15 @@ https://www.sallyjaquet.com/crisis-exhibition-1
         <article class="card">
           <h3>Leadership</h3>
           <p>
-            Systems thinking, narrative design, critique, and iteration,
+            Led multiple art projects for third sector clients and small local businesses
             with a focus on community engagement and participation.
           </p>
         </article>
       </div>
 
       <p>
-        I care about tools, but I care even more about <strong>judgement</strong> —
-        choosing the right level of complexity for the problem.
+        I care about tools, but I care even more about <strong>strategy</strong> —
+        aligning creative concepts with business objectives and project requirements for the best possible outcomes.
       </p>
     `
   },
