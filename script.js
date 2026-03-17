@@ -201,8 +201,8 @@ https://www.sallyjaquet.com/crisis-exhibition-1
     title: "Teaching",
     html: `
       <p>
-        I teach and mentor around digital design, creative technology, and the relationship
-        between concept, interface, and execution.
+        I lecture and mentor on digital design, creative technology, and the relationship
+        between concept, interface, and creativity.
       </p>
 
       <p>
@@ -228,7 +228,7 @@ https://www.sallyjaquet.com/crisis-exhibition-1
         <article class="card">
           <h3>How I teach</h3>
           <p>
-            By helping students make strong, informed decisions — not just pretty outcomes.
+            By helping students make strong, informed decisions not just pretty outcomes.
           </p>
           <p>
             By fostering a culture of globally minded specialists who approach
