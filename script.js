@@ -10,13 +10,13 @@ const sections = {
     title: "About",
     html: `
       <p>
-        I’m an Italian designer and creative technologist working at the intersection of
+        I’m a black Italian designer and creative technologist working at the intersection of
         <strong>culture, education, and tech</strong>.
       </p>
 
       <p>
-        My work is shaped by a strong interest in clarity: how interfaces, narratives,
-        and structures help people make sense of complexity.
+        My work is shaped by a strong interest in <strong>community engagement</strong>: how narratives,
+       structures and systems help people make sense of complexity.
       </p>
 
       <div class="cards">
@@ -31,8 +31,8 @@ const sections = {
         <article class="card">
           <h3>Where I work best</h3>
           <p>
-            Projects involving education, heritage, storytelling, digital identity,
-            and design thinking.
+            Projects involving Education, Heritage, Storytelling, Digital Identity,
+            and Design Thinking.
           </p>
         </article>
       </div>
@@ -52,16 +52,16 @@ const sections = {
     title: "Work",
     html: `
       <p>
-        My practice moves between <strong>design, technology, and teaching</strong>,
-        translating complex ideas into clear and usable systems.
+        My practice moves between <strong>design, technology, and Higher Education teaching</strong>,
+        translating complex ideas into accessible tools.
       </p>
 
       <div class="cards">
         <article class="card">
           <h3>University teaching</h3>
           <p>
-            Supporting MA students in Digital Design and Innovation at Heriot-Watt University
-            across digital design, UX, interaction, and creative technology.
+            Lecturing MA students in Digital Design and Innovation at Heriot-Watt University
+            on digital design, UX, interaction, and creative technology.
           </p>
         </article>
 
@@ -122,12 +122,41 @@ const sections = {
         </article>
       </div>
 
+       <article class="card">
       <h3>What makes a project feel like mine</h3>
       <ul>
         <li>Accessibility and empathy at the heart of my design</li>
         <li>Community-engagement-driven projects</li>
         <li>Human, intuitive interaction between the user and the interface</li>
       </ul>
+          </article>
+
+              <article class="card">
+          <h3>What they've said about my projects</h3>
+          <p>
+           
+- Lush & Legacy: A night of Cultural Memory and Self-care https://edinburgh.org/event/lush-legacy-care-memory-and-stories/
+
+- Our Hearing Our Voices Rise
+Up, Creative Consultant Officer
+
+https://childreninscotland.org.uk/news-article/seeing-beyond-the-surface-a-new-guide-from-our-hearings-our-voices/
+
+- Branding Legacy of Grandmothers,
+https://legacyofgrandmothers.com/
+
+
+- 4 wise men, Art direction
+
+https://timonholzer.wixsite.com/timon-holzer/4-wisemen
+
+
+- Crisis UK Photography Exhibition Lead
+https://www.sallyjaquet.com/crisis-exhibition-1
+
+          </p>
+        </article>
+      </div>
     `
   },
 
