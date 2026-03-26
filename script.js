@@ -10,12 +10,12 @@ const sections = {
     title: "About",
     html: `
       <p>
-        I’m Annalisa (Anna) Colarusso, a creative programme lead and digital practitioner working across
+        I’m Annalisa (Anna) Colarusso, an Adjunct Lecturer and Creative tecnologist working across
         <strong>higher education, community-led cultural projects, and artist support</strong>.
       </p>
 
       <p>
-        I specialise in translating complex ideas into clear, accessible systems — whether that’s a curriculum,
+        As a black Italian digital designer, I specialise in translating complex ideas into inclusive, accessible systems — whether that’s a curriculum,
         a digital platform, or a co-created exhibition. My practice sits where digital culture, UX,
         and community arts overlap.
       </p>
