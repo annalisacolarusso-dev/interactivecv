@@ -10,80 +10,95 @@ const sections = {
     title: "About",
     html: `
       <p>
-        I’m a black Italian designer and creative technologist working at the intersection of
-        <strong>culture, education, and tech</strong>.
+        I’m Annalisa (Anna) Colarusso, a creative programme lead and digital practitioner working across
+        <strong>higher education, community-led cultural projects, and artist support</strong>.
       </p>
 
       <p>
-        My work is shaped by a strong interest in <strong>community engagement</strong>: how narratives,
-       structures and systems help people make sense of complexity.
+        I specialise in translating complex ideas into clear, accessible systems — whether that’s a curriculum,
+        a digital platform, or a co-created exhibition. My practice sits where digital culture, UX,
+        and community arts overlap.
       </p>
 
       <div class="cards">
         <article class="card">
-          <h3>What defines my approach</h3>
+          <h3>What I bring</h3>
           <p>
-            Human-centred and participatory design, accessibility, and inclusion
-            to produce work that drives change and innovation.
+            Creative project and programme coordination, digital strategy and design, and artist support
+            with a focus on long-term cultural development and access to space.
           </p>
         </article>
 
         <article class="card">
-          <h3>Where I work best</h3>
+          <h3>Where I sit</h3>
           <p>
-            Projects involving Education, Heritage, Storytelling, Digital Identity,
-            and Design Thinking.
+            Between UX and participatory design, cultural archives, photography, and
+            research-led digital storytelling.
           </p>
         </article>
       </div>
 
-      <h3>What I care about</h3>
+      <h3>Interests</h3>
       <ul>
-        <li>Design research</li>
-        <li>Interactive storytelling</li>
-        <li>Culture and education</li>
-        <li>UX, AR, and participatory design</li>
+        <li>Digital culture and UX &amp; participatory design</li>
+        <li>Community arts and artist support</li>
+        <li>Photography and cultural archives</li>
+        <li>Writing and creative technology</li>
       </ul>
     `
   },
 
   work: {
     kicker: "EXPERIENCE",
-    title: "Work",
+    title: "Work & Roles",
     html: `
       <p>
-        My practice moves between <strong>design, technology, and Higher Education teaching</strong>,
-        translating complex ideas into accessible tools.
+        My work moves across <strong>creative development, digital projects, and education</strong>,
+        often acting as a bridge between practitioners, students, and organisations.
       </p>
 
       <div class="cards">
         <article class="card">
-          <h3>University teaching</h3>
+          <h3>Creative Programme / Digital Lead</h3>
           <p>
-            Lecturing MA students in Digital Design and Innovation at Heriot-Watt University
-            on digital design, UX, interaction, and creative technology.
+            Creative programme lead and digital specialist supporting artists, cultural practitioners,
+            and small organisations to build meaningful digital presences.
+          </p>
+          <p>
+            Responsibilities include web development, UX and branding, copy and narrative development,
+            and end-to-end project delivery from discovery and structure to content and build.
           </p>
         </article>
 
         <article class="card">
-          <h3>Freelance design</h3>
+          <h3>Freelance digital practice</h3>
           <p>
-            Building brands, websites, and digital experiences for the third sector,
-            independent clients, and cultural projects across Edinburgh.
+            Freelance UX and digital content work for artists and small organisations, designing brand identities,
+            digital content, and websites that clarify their voice and values.
+          </p>
+          <p>
+            Selected projects include Romina Key Photography (Squarespace redesign focused on emotional clarity),
+            Konj Persian Cuisine (content and UX for a creative food business),
+            and Legacy of Grandmothers (ongoing digital storytelling and heritage).
           </p>
         </article>
 
         <article class="card">
-          <h3>Creative technology</h3>
+          <h3>Community & third-sector work</h3>
           <p>
-            Developing AR experiences where narrative, interface, and experimentation meet.
+            Experience across community-led and third-sector projects, including creative campaign work and
+            trauma-informed, co-created exhibitions with Crisis UK and Children 1st.
+          </p>
+          <p>
+            Skilled in stakeholder liaison, artist support, safeguarding-aware content creation, and
+            holding space for participants through creative processes.
           </p>
         </article>
       </div>
 
       <p>
-        I work particularly well in interdisciplinary roles where strategic thinking,
-        leadership, design craft, and communication all matter.
+        Across all roles, I bring together organisation, empathy, and creative direction, with a strong track record
+        of delivering meaningful, values-led projects with artists, students, and cultural organisations.
       </p>
     `
   },
@@ -93,149 +108,179 @@ const sections = {
     title: "Projects",
     html: `
       <p>
-        I’m interested in projects that combine strong visual thinking with structure,
-        usefulness, and a clear point of view.
+        A few projects that capture how I like to work: community-rooted, visually thoughtful,
+        and grounded in care.
       </p>
 
       <div class="cards">
         <article class="card">
           <h3>Legacy of Grandmothers</h3>
           <p>
-            A storytelling and archival project exploring memory, lineage,
-            and intergenerational voice.
+            Ongoing cultural storytelling project exploring memory, identity, and intergenerational heritage.
+            I support digital presence, UX and branding, and content strategy so the project can grow sustainably online.
           </p>
         </article>
 
         <article class="card">
-          <h3>Interactive CV</h3>
+          <h3>Crisis UK — Photography Exhibition</h3>
           <p>
-            A navigable portfolio system designed as both interface and self-authored narrative.
+            Tutor and facilitator for a trauma-informed, co-created photography exhibition, supporting participants
+            to use lens-based media to tell their own stories and engage the public.
           </p>
         </article>
 
         <article class="card">
-          <h3>Client work</h3>
+          <h3>Our Hearings, Our Voices</h3>
           <p>
-            Brand identities, website builds, and digital experiences for independent practice
-            and culture-led work.
+            Creative and digital support around the launch of a guide for care experienced children and young people
+            in Scotland, aligning content and design with accessibility and safeguarding needs.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Romina Key Photography</h3>
+          <p>
+            Full website rebrand and Squarespace build with a focus on emotional clarity and intuitive navigation
+            for a photography practice.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Konj Persian Cuisine</h3>
+          <p>
+            Content restructuring and UX flow for a creative food business, helping articulate cultural identity
+            and offerings in a clear, welcoming way.
           </p>
         </article>
       </div>
 
-       <article class="card">
-      <h3>What makes a project feel like mine</h3>
+      <h3>How I approach projects</h3>
       <ul>
-        <li>Accessibility and empathy at the heart of my design</li>
-        <li>Community-engagement-driven projects</li>
-        <li>Human, intuitive interaction between the user and the interface</li>
+        <li>Community-led and values-aligned decision making</li>
+        <li>Careful documentation and research to support future growth</li>
+        <li>Accessible, emotionally intelligent digital touchpoints</li>
       </ul>
-          </article>
-
-              <article class="card">
-          <h3>What they've said about my projects</h3>
-          <p>
-           
-- Lush & Legacy: A night of Cultural Memory and Self-care https://edinburgh.org/event/lush-legacy-care-memory-and-stories/
-
-- Our Hearing Our Voices Rise
-Up, Creative Consultant Officer
-
-https://childreninscotland.org.uk/news-article/seeing-beyond-the-surface-a-new-guide-from-our-hearings-our-voices/
-
-- Branding Legacy of Grandmothers,
-https://legacyofgrandmothers.com/
-
-
-- 4 wise men, Art direction
-
-https://timonholzer.wixsite.com/timon-holzer/4-wisemen
-
-
-- Crisis UK Photography Exhibition Lead
-https://www.sallyjaquet.com/crisis-exhibition-1
-
-          </p>
-        </article>
-      </div>
     `
   },
 
   skills: {
     kicker: "TOOLKIT",
-    title: "Skills",
+    title: "Skills & Tools",
     html: `
       <div class="cards">
         <article class="card">
-          <h3>Design</h3>
+          <h3>Programme & project</h3>
           <p>
-            Brand systems, front-end web development, UX design, typography, layout,
-            and art direction.
+            Creative project and programme coordination, artist support, stakeholder liaison,
+            curriculum and workshop development, and cross-team communication.
           </p>
         </article>
 
         <article class="card">
-          <h3>Technology</h3>
+          <h3>Digital & UX</h3>
           <p>
-            HTML, CSS, JavaScript, Figma, Adobe Suite, prototyping, and creative coding.
+            UX and digital content design, information architecture, research documentation,
+            and copywriting / narrative development for web and campaigns.
           </p>
         </article>
 
         <article class="card">
-          <h3>Leadership</h3>
+          <h3>Tools</h3>
           <p>
-            Led multiple art projects for third sector clients and small local businesses
-            with a focus on community engagement and participation.
+            Figma, Adobe Creative Suite, Squarespace, HTML, CSS, and JavaScript —
+            used to build accessible, flexible digital experiences.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Art & cultural practice</h3>
+          <p>
+            Community arts, photography and lens-based media, cultural archives, and writing, often combined
+            with creative technology and participatory methods.
           </p>
         </article>
       </div>
 
       <p>
-        I care about tools, but I care even more about <strong>strategy</strong> —
-        aligning creative concepts with business objectives and project requirements for the best possible outcomes.
+        I’m as comfortable in a design tool as I am in a community workshop — the through-line is an emphasis
+        on clarity, care, and collaboration.
       </p>
     `
   },
 
   teaching: {
-    kicker: "EDUCATION",
-    title: "Teaching",
+    kicker: "ACADEMIC PRACTICE",
+    title: "Teaching & Research",
     html: `
       <p>
-        I lecture and mentor on digital design, creative technology, and the relationship
-        between concept, interface, and creativity.
-      </p>
-
-      <p>
-        I believe in building a world where everyone has access to compassionate,
-        accessible, and inclusive education. I want to help shape a generation of
-        thoughtful innovators who can break through barriers with confidence and care.
-      </p>
-
-      <p>
-        My approach emphasises critical thinking, iteration, and understanding
-        the systems behind the surface.
+        I teach digital design, creative technology, and interaction as interconnected systems —
+        combining conceptual design thinking with technical fluency and inclusive pedagogy to empower students
+        as reflective practitioners.
       </p>
 
       <div class="cards">
         <article class="card">
-          <h3>Focus areas</h3>
+          <h3>Course leadership</h3>
           <p>
-            UX and interaction, design systems, creative coding, critique,
-            and project development.
+            Course Leader for UX Design and Creative Programming (Level 11 MA) at Heriot-Watt University’s
+            School of Textiles and Design.
+          </p>
+          <p>
+            Designed and delivered curricula aligned with industry standards and creative practice,
+            led assessment design, marking, and moderation with Course Boards,
+            and supported students through project development, research, and portfolio building.
           </p>
         </article>
 
         <article class="card">
-          <h3>How I teach</h3>
+          <h3>University tutoring</h3>
           <p>
-            By helping students make strong, informed decisions not just pretty outcomes.
+            University Tutor at Edinburgh Napier University’s School of Arts &amp; Creative Industries,
+            teaching across Digital Design, HCI, Creative Practice, and Motion Design.
           </p>
           <p>
-            By fostering a culture of globally minded specialists who approach
-            the industry with competence and confidence.
+            Designed and led a Creative Direction course aligned with D&amp;AD standards (with students
+            progressing to win D&amp;AD Pencils) and achieved 100% student satisfaction across taught modules.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Research & public engagement</h3>
+          <p>
+            Research Assistant on UX and heritage, working with Dr Ian Donald and Dr John Morrison on
+            research-through-design projects exploring how UX, games, and lens-based media can support
+            heritage engagement and social change.
+          </p>
+          <p>
+            Facilitator and tutor for trauma-informed, co-created exhibitions with Crisis UK,
+            and creative lead for Children 1st campaigns and learning materials aligned with
+            safeguarding and accessibility needs.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Care experienced young people</h3>
+          <p>
+            Supported the development of creative activities for care experienced young people with CELCIS,
+            Children 1st, and Our Hearings Our Voices, informing practice-based research on lens-based
+            technologies, identity, and agency.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Pedagogical focus</h3>
+          <p>
+            Focus areas include UX and interaction, design systems, creative coding, critique, and project development.
+            I emphasise human-centred and participatory design methods, inclusive curriculum design, and
+            critique cultures that build confidence and reflective practice.
           </p>
         </article>
       </div>
+
+      <p>
+        My goal is to raise designers who don’t just create — they question, iterate, and impact:
+        understanding the systems, technologies, and communities their work touches.
+      </p>
     `
   },
 
@@ -244,20 +289,19 @@ https://www.sallyjaquet.com/crisis-exhibition-1
     title: "Contact",
     html: `
       <p>
-        For collaborations, teaching opportunities, freelance work,
-        or thoughtful digital projects, I’d love to hear from you.
+        For collaborations, programme development, teaching, or digital projects rooted in culture and community,
+        I’d love to hear from you.
       </p>
 
       <div class="cta-row">
         <a class="inline-cta" href="mailto:annalisacolarusso@gmail.com">Email me</a>
         <a class="inline-cta" href="https://www.linkedin.com/in/annalisa-colarusso/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a class="inline-cta" href="https://itsannadesigns.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
-        <a class="inline-cta" href="https://www.instagram.com/annacandesign/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
 
       <p class="fineprint">
-        I’m especially interested in work that sits between design, culture,
-        and digital storytelling.
+        I’m especially interested in work that supports creative communities, access to space,
+        and long-term cultural development.
       </p>
     `
   }
